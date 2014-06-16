@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>nextage_ros_seqplay_util</name>
+  <version>0.1.0</version>
+  <description>SequencePlayer utility for NEXTAGE OPEN</description>
+
+  <maintainer email="yutaka.kondo@youtalk.jp">Yutaka Kondo</maintainer>
+  <license>BSD</license>
+  <author email="yutaka.kondo@youtalk.jp">Yutaka Kondo</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>nextage_description</build_depend>
+  <build_depend>nextage_ros_bridge</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>tf</build_depend>
+  <run_depend>nextage_description</run_depend>
+  <run_depend>nextage_ros_bridge</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>tf</run_depend>
+
+  <export>
+  </export>
+</package>
