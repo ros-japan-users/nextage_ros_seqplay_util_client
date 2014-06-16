@@ -1,4 +1,4 @@
-nextage_ros_seqplay_util
+nextage_ros_seqplay_util_client
 ========================
 
 ROS package of SequencePlayer utility for NEXTAGE OPEN
