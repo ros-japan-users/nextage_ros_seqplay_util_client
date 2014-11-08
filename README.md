@@ -6,6 +6,7 @@ ROS package of SequencePlayer utility for NEXTAGE OPEN
 近藤さんのROS勉強記第4回にあるサービスを端末から呼ぶサンプルをC++形式で書いたサービスクライアント(src/sample.cpp)です.
 
 clientを生成するためにCmakeList.txtのbuildを編集しています。
+
 参考:ROStutorial http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29
 
 Build
