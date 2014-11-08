@@ -8,10 +8,6 @@ ROS package of SequencePlayer utility for NEXTAGE OPEN
 clientを生成するためにCmakeList.txtのbuildを編集しています。
 参考:ROStutorial http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29
 
-
-僕もわからないのです, goInitial, /goOffPose, /setTargetPoseRelativeのサービスは動作が成功していても
-client.call(srv)がfalseを返してくるので、エラー処理を飛ばしています.
-
 Build
 -----
 
