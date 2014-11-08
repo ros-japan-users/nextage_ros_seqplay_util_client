@@ -49,6 +49,7 @@ int main(int argc, char **argv)
   gooffsrv.request.tm =5.0;
   
 //call service
+  //initial pose
   std::cout << "initial" << std::endl;
   if (initialclient.call(initialsrv))
   {
@@ -58,7 +59,7 @@ int main(int argc, char **argv)
   {
     ROS_ERROR("Error goInitial");
   }
-
+  //wait
   std::cout << "wait" << std::endl;
   if (waitclient.call(waitsrv))
   {
@@ -68,7 +69,7 @@ int main(int argc, char **argv)
   {
     ROS_ERROR("Error wait");
   }
-
+  //move left hand
   std::cout << "target" << std::endl;
   if (targetclient.call(targetsrv))
   {
@@ -78,7 +79,7 @@ int main(int argc, char **argv)
   {
     ROS_ERROR("Error target");
   }
-
+  //wait
   std::cout << "leftwait" << std::endl;
   if (leftwaitclient.call(leftwaitsrv))
   {
@@ -88,7 +89,7 @@ int main(int argc, char **argv)
   {
     ROS_ERROR("Error leftwait");
   }
-
+  //go off pose
   std::cout << "gooff" << std::endl;
   if (gooffclient.call(gooffsrv))
   {
